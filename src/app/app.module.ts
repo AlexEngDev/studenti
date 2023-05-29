@@ -15,6 +15,7 @@ import { DocenteComponent } from './docenti/docente/docente.component';
 import { EditDocenteComponent } from './docenti/edit-docente/edit-docente.component';
 import { FormsModule } from '@angular/forms';
 import { AddStudenteComponent } from './studenti/add-studente/add-studente.component';
+import { RegNewStudenteComponent } from './reg-new-studente/reg-new-studente.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { AddStudenteComponent } from './studenti/add-studente/add-studente.compo
     DocenteComponent,
     EditDocenteComponent,
     AddStudenteComponent,
+    RegNewStudenteComponent,
 
   ],
   imports: [
